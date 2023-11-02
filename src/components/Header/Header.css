@@ -1,0 +1,21 @@
+header {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+header img {
+  height: 10vh;
+  width: 60vw;
+  align-self: center;
+}
+
+header > nav > ul {
+  display: flex;
+  gap: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}

@@ -1,0 +1,36 @@
+:root {
+  --primary: #1b3360;
+  --secondary: #ffffff;
+  --tertiary: #b5b7b7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--secondary);
+  background-color: var(--primary);
+  background-image: url(https://www.sonicthehedgehog.com/);
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+  transition: 0.4s;
+}
+a:hover,
+.active {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+main {
+  min-height: calc(100vh - 150px - 80px);
+}
